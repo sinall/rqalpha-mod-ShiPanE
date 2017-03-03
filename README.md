@@ -12,6 +12,10 @@
 
 *   建议使用 Anaconda Env 来搭建 Python 虚拟环境，传送门: [基于Anaconda的环境搭建](http://rqalpha.readthedocs.io/zh_CN/stable/intro/detail_install.html)
 *   安装 RQAlpha，参考 [RQAlpha 安装指南](http://rqalpha.readthedocs.io/zh_CN/stable/intro/install.html)
+*   更新 `lxml`
+    ```
+    ￥ conda install -f lxml
+    ```
 *   安装 `rqalpha-mod-shipane`
     ```bash
     $ pip install rqalpha-mod-shipane

@@ -1,2 +1,3 @@
+lxml==3.6.4
 rqalpha>=0.3.12
 shipane-sdk>=1.0.0b5

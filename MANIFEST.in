@@ -1,0 +1,2 @@
+include requirements.txt
+include rqalpha_mod_shipane/VERSION.txt
