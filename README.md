@@ -37,3 +37,20 @@ $ rqalpha disable shipane
 # 卸载实盘易Mod
 $ rqalpha uninstall shipane
 ```
+
+### FAQ
+
+如果报如下错误
+
+```
+ImportError: dlopen(/Users/eric/anaconda/envs/rqalpha/lib/python3.6/site-packages/lxml/etree.cpython-36m-darwin.so, 2): Library not loaded: @rpath/libxml2.2.dylib
+  Referenced from: /Users/eric/anaconda/envs/rqalpha/lib/python3.6/site-packages/lxml/etree.cpython-36m-darwin.so
+  Reason: Incompatible library version: etree.cpython-36m-darwin.so requires version 12.0.0 or later, but libxml2.2.dylib provides version 10.0.0
+```
+
+解决方案:
+
+```
+conda install libxml2
+pip install -f lxml==3.6.4
+```
