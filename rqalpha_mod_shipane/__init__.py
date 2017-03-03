@@ -21,3 +21,13 @@ from .mod import ShipaneMod
 
 def load_mod():
     return ShipaneMod()
+
+
+__mod_config__ = """
+    host: xxx.xxx.xxx.xxx
+    port: 8888
+    key: ''
+    client: ''
+    # trigger_event 表示是基于何种事件来触发的，目前支持 ORDER_CREATION_PASS（订单创建成功）或者 TRADE(成交)
+    trigger_event: TRADE
+"""
