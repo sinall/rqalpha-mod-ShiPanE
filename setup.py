@@ -32,6 +32,7 @@ setup(
     name='rqalpha-mod-shipane',
     version=version,
     description='RQAlpha Mod ShipanE to support stock real time trading',
+    long_description=open('README.rst').read(),
     packages=find_packages(exclude=[]),
     author='wh1100717',
     author_email='me@emptystack.net',
